@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'opengost_type_a_ttregular';
+    src: url('opengosttypea-regular.eot');
+    src: url('opengosttypea-regular.eot?#iefix') format('embedded-opentype'),
+         url('opengosttypea-regular.woff') format('woff'),
+         url('opengosttypea-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opengost_type_b_ttregular';
+    src: url('opengosttypeb-regular.eot');
+    src: url('opengosttypeb-regular.eot?#iefix') format('embedded-opentype'),
+         url('opengosttypeb-regular.woff') format('woff'),
+         url('opengosttypeb-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
