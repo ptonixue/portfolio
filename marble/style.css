@@ -126,7 +126,7 @@ h3 {
 .content {
 	width: 1024px;
 	margin: 0px auto;
-	padding-top: 50px;
+	padding: 50px 0 40px 0;
 }
 
 .tbl_icon td {
@@ -173,7 +173,7 @@ h3 {
 }
 
 .tbl_works {
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .img_works {
