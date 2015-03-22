@@ -2000,3 +2000,15 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
   })
 
 }(jQuery);
+
+$(document).ready(function() {
+  $('#myCarousel').carousel({
+  interval: 0
+  })
+    
+    $('#myCarousel').on('slid.bs.carousel', function() {
+      //alert("slid");
+  });
+    
+    
+});

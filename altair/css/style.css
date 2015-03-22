@@ -335,3 +335,30 @@ li.active a {
 	right: 20px;
 	bottom: 155px;
 }
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  opacity: .5;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+  padding-top:10.25%;
+  width:5%;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image: none;
+}
+
+.col-sm-3 {
+    width: 390px;
+}
