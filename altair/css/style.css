@@ -338,25 +338,28 @@ li.active a {
 
 .carousel-control {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 0px;
   bottom: 0;
   width: 15%;
-  opacity: .5;
-  font-size: 20px;
-  color: #fff;
-  text-align: center;
-  text-shadow: none;
+  opacity: 2;
   padding-top:10.25%;
-  width:5%;
+  width:10%;
+  height: 450px;
 }
+
 .carousel-control.left {
-	background-image: none;
+    /*background-image: linear-gradient(to right, rgba(63, 59, 72, 2) 0px, transparent 100%);
+    background-repeat: repeat-x;*/
+    background: none;
 }
+
 .carousel-control.right {
-  left: auto;
-  right: 0;
-  background-image: none;
+	right: 0px;
+    left: auto;
+    /*background-repeat: repeat-x;
+    background-image: linear-gradient(to right, transparent 0px, rgba(63, 59, 72, 2) 100%);*/
+    background: none;
 }
 
 .col-sm-3 {
