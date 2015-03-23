@@ -2001,14 +2001,27 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
 
 }(jQuery);
 
+/*NEW - carousel*/
+
 $(document).ready(function() {
   $('#myCarousel').carousel({
   interval: 0
   })
-    
+
     $('#myCarousel').on('slid.bs.carousel', function() {
       //alert("slid");
   });
-    
-    
+
+
+});
+
+// Initialize the plugin with no custom options
+  $(document).ready(function () {
+    // I just set some of the options
+    $("#makeMeScrollable").smoothDivScroll({
+      touchScrolling: true,
+      // manualContinuousScrolling: true,
+      hotSpotScrolling: false,
+      // mousewheelScrolling: false
+    });
 });

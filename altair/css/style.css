@@ -152,12 +152,12 @@ li.active a {
 .paging {
 	height: 56px;
 	width: 410px;
-	background: url(../img/schet.png) no-repeat; 
+	background: url(../img/schet.png) no-repeat;
 	margin: 100px auto 0 auto;
 	list-style: none;
 	color: #333333;
 	font-weight: bold;
-	padding: 0;	
+	padding: 0;
 	text-transform: uppercase;
 }
 
