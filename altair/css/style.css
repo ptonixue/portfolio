@@ -84,12 +84,14 @@ li.active a {
 	padding-top: 40px;
 }
 
-.list_page_white {
+.list_page {
 	height: auto;
-	min-height: 650px;
-	background: #fff;
-	/* #f7f7f7 */
+	min-height: 800px;
 	padding-top: 50px;
+}
+
+.list_page_white {
+	background: #fff;
 }
 
 .list_page_white:first-child {
@@ -97,15 +99,13 @@ li.active a {
 }
 
 .list_page_black {
-	height: auto;
-	min-height: 830px;
 	background: #3f3b48;
-	padding-top: 50px;
 	color: #b2b1b6;
 }
 
 .list_page_0 {
 	background: #fff url(../img/list_page_0.png) no-repeat center bottom;
+	background-size: 100%;
 }
 
 .list_page_1 {
@@ -114,7 +114,7 @@ li.active a {
 
 .list_page_2 {
 	background: #fff url(../img/list_page_2.png) no-repeat center bottom;
-	min-height: 750px;
+	background-size: 100%;
 }
 
 .list_page_4 {
