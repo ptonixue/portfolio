@@ -349,19 +349,27 @@ li.active a {
 }
 
 .carousel-control.left {
-    /*background-image: linear-gradient(to right, rgba(63, 59, 72, 2) 0px, transparent 100%);
-    background-repeat: repeat-x;*/
-    background: none;
+    background-image: linear-gradient(to right, rgba(63, 59, 72, 2) 0px, transparent 100%);
+    background-repeat: repeat-x;
+    width: 300px;
 }
 
 .carousel-control.right {
 	right: 0px;
     left: auto;
-    /*background-repeat: repeat-x;
-    background-image: linear-gradient(to right, transparent 0px, rgba(63, 59, 72, 2) 100%);*/
-    background: none;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to right, transparent 0px, rgba(63, 59, 72, 2) 100%);
+    width: 300px;
 }
 
 .col-sm-3 {
     width: 390px;
+}
+
+.position_rel {
+	position: relative;
+}
+
+.container_big {
+	width: 1600px;
 }
