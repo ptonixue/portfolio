@@ -54,6 +54,7 @@ h2 {
 
 li.active a {
 	color: #303941;
+
 }
 
 /*.slogan {
@@ -105,7 +106,7 @@ li.active a {
 
 .list_page_0 {
 	background: #fff url(../img/list_page_0.png) no-repeat center bottom;
-	background-size: 100%;
+	min-height: 700px;
 }
 
 .list_page_1 {
@@ -368,8 +369,4 @@ li.active a {
 
 .position_rel {
 	position: relative;
-}
-
-.container_big {
-	width: 1600px;
 }

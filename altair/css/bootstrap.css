@@ -6467,13 +6467,13 @@ button.close {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
 
-.carousel-control:hover,
+/*.carousel-control:hover,
 .carousel-control:focus {
   color: #ffffff;
   text-decoration: none;
   opacity: 0.9;
   filter: alpha(opacity=90);
-}
+}*/
 
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
