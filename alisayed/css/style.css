@@ -1,10 +1,27 @@
 h2 {
 	text-transform: capitalize;
 	font-weight: normal;
-	margin-top: 60px;
+	margin: 70px 0 50px 0;
+	font-size: 36px;
+}
+
+.menu {
+	margin-top: 50px;
 }
 
 .block_0 {
 	background: url(../img/background_0.jpg) no-repeat;
 	height: 715px;
+}
+
+.block_1 {
+	padding: 0 50px 0 10px;
+	background: #F3F3F3;
+}
+
+.p_block_1 {
+	width: 300px;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
 }
