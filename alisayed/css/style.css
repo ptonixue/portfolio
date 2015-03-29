@@ -5,6 +5,10 @@ h2 {
 	font-size: 36px;
 }
 
+.row-fluid {
+	background: #F3F3F3;
+}
+
 .menu {
 	margin-top: 50px;
 }
@@ -15,8 +19,22 @@ h2 {
 }
 
 .block_1 {
-	padding: 0 50px 0 10px;
-	background: #F3F3F3;
+	padding: 0 50px;
+}
+
+.block_2 {
+	background: url(../img/background_2.jpg) no-repeat;
+	height: 853px;
+}
+
+.block_3_one {
+	background: url(../img/background_3_2.jpg) no-repeat;
+	height: 427px;
+}
+
+.block_3_two {
+	background: url(../img/background_3_1.jpg) no-repeat;
+	height: 427px;
 }
 
 .p_block_1 {
@@ -24,4 +42,12 @@ h2 {
 	font-size: 18px;
 	line-height: 1.5;
 	margin-bottom: 40px;
+}
+
+.row-fluid [class*="span"] {
+	margin-left: 0;
+}
+
+.row-fluid .span7 {
+    width: 55.265%;
 }
