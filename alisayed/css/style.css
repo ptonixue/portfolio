@@ -15,6 +15,7 @@ h2 {
 
 .block_0 {
 	background: url(../img/background_0.jpg) no-repeat;
+	background-size: cover;
 	height: 715px;
 }
 
@@ -24,16 +25,19 @@ h2 {
 
 .block_2 {
 	background: url(../img/background_2.jpg) no-repeat;
+	background-size: cover;
 	height: 853px;
 }
 
 .block_3_one {
 	background: url(../img/background_3_2.jpg) no-repeat;
+	background-size: cover;
 	height: 427px;
 }
 
 .block_3_two {
 	background: url(../img/background_3_1.jpg) no-repeat;
+	background-size: cover;
 	height: 427px;
 }
 
@@ -48,6 +52,10 @@ h2 {
 	margin-left: 0;
 }
 
-.row-fluid .span7 {
-    width: 55.265%;
+.row-fluid .span4 {
+    width: 34.188%;
+}
+
+.row-fluid .span5 {
+    width: 42.735%;
 }
