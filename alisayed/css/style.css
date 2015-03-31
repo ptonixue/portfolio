@@ -59,3 +59,21 @@ h2 {
 .row-fluid .span5 {
     width: 42.735%;
 }
+
+.shadow_block {
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+}
+
+.shadow_blue {
+	background-color: #2a7c8f;
+}
+
+.shadow_yellow {
+	background-color: #eee0c1;
+}
+
+.shadow_black {
+	background-color: #212d38;
+}
