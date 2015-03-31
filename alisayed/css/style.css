@@ -2,7 +2,12 @@ h2 {
 	text-transform: capitalize;
 	font-weight: normal;
 	margin: 70px 0 50px 0;
-	font-size: 36px;
+	font-size: 38px;
+}
+
+.main_text_shadow {
+	margin: 0;
+	padding: 70px 0 30px 60px;
 }
 
 .row-fluid {
@@ -42,10 +47,20 @@ h2 {
 }
 
 .p_block_1 {
-	width: 300px;
-	font-size: 18px;
+	width: 280px;
+	font-size: 16px;
 	line-height: 1.5;
 	margin-bottom: 40px;
+}
+
+.text_shadow_block {
+	margin: 0 30px 0 60px;
+	line-height: 1.8;
+	font-size: 16px;
+}
+
+.fixed_size_text {
+	width: 500px;
 }
 
 .row-fluid [class*="span"] {
@@ -76,4 +91,16 @@ h2 {
 
 .shadow_black {
 	background-color: #212d38;
+}
+
+.text_white {
+	color: #fff;
+}
+
+.text_black {
+	color: #262f32;
+}
+
+.bolder {
+	font-weight: bolder;
 }
