@@ -171,7 +171,7 @@ h2 {
 	margin: 0;
 }
 
-input[type="text"], .info_user {
+.info_user {
 	width: 280px;
 	height: 30px;
 	border-radius: 10px;
@@ -179,5 +179,7 @@ input[type="text"], .info_user {
 }
 
 .message_user {
-	width: 563px;
+	width: 580px;
+	height: 160px;
+	vertical-align: top;
 }
