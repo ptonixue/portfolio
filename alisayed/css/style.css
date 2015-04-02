@@ -4,7 +4,7 @@ h2 {
 	margin: 70px 0 50px 0;
 	font-size: 38px;
 	line-height: 1.5;
-	width: 400px;
+	width: 380px;
 	letter-spacing: 1;
 }
 
@@ -76,11 +76,11 @@ h2 {
 }
 
 .fixed_size_text {
-	width: 500px;
+	max-width: 500px;
 }
 
 .row-fluid [class*="span"] {
-	margin-left: 0;
+	margin: 0;
 }
 
 .row-fluid .span4 {
@@ -163,7 +163,7 @@ h2 {
 }
 
 .font_maxi {
-	font-size: 50px;
+	font-size: 44px;
 }
 
 .none_otstyp {
