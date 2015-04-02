@@ -89,7 +89,7 @@ h3 {
 .slider-head {
 	background: url('img/header.jpg') no-repeat center top;
 	height: 520px;
-	background-size: contain;
+	background-size: cover;
 	text-align: center;
 	margin: 0px auto;
 }
