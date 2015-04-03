@@ -172,14 +172,22 @@ h2 {
 }
 
 .info_user {
-	width: 280px;
-	height: 30px;
+	width: 275px;
+	height: 40px;
 	border-radius: 10px;
 	margin: 0 3px 0 0;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 4px 0 2px 20px;
+	font-size: 18px;
 }
 
 .message_user {
 	width: 580px;
 	height: 160px;
 	vertical-align: top;
+	padding: 15px 0 0 20px;
+	resize: none;
 }
+
