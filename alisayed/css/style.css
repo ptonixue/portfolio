@@ -5,7 +5,6 @@ h2 {
 	font-size: 38px;
 	line-height: 1.5;
 	width: 380px;
-	letter-spacing: 1;
 }
 
 .main_text_shadow {
@@ -191,3 +190,6 @@ h2 {
 	resize: none;
 }
 
+.none_size {
+	width: 100%;
+}
