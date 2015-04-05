@@ -193,3 +193,24 @@ h2 {
 .none_size {
 	width: 100%;
 }
+
+.icon {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	width: 48px;
+	height: 48px;
+	border-radius: 7px;
+}
+
+.icon_facebook {
+	background: url('../img/icon_facebook.png') no-repeat center center #345bb4;
+}
+
+.icon_globus {
+	background: url('../img/icon_globus.png') no-repeat center center #e64895;
+}
+
+.icon_twitter {
+	background: url('../img/icon_twitter.png') no-repeat center center #00b4ff;
+}
