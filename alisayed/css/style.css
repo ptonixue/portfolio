@@ -2,12 +2,12 @@ h2 {
 	text-transform: capitalize;
 	font-weight: normal;
 	margin: 70px 0 50px 0;
-	font-size: 38px;
+	font-size: 40px;
 	line-height: 1.5;
 	width: 380px;
 }
 
-.main_text_shadow {
+.main_text {
 	margin: 0;
 	padding: 70px 0 30px 0px;
 	opacity: 1;
@@ -67,7 +67,7 @@ h2 {
 	margin-bottom: 40px;
 }
 
-.text_shadow_block {
+.text_content {
 	margin: 0 30px 0 0px;
 	line-height: 1.8;
 	font-size: 16px;
@@ -90,10 +90,9 @@ h2 {
     width: 42.735%;
 }
 
-.shadow_block {
+.shadow_blok {
 	opacity: 0.8;
 	height: 100%;
-	padding: 0 30px 0 60px
 }
 
 .shadow_blue {
@@ -102,7 +101,7 @@ h2 {
 
 .shadow_yellow {
 	background: #eee0c1;
-	opacity: 0.9;
+	/*opacity: 0.9;*/
 }
 
 .shadow_black {
@@ -111,12 +110,16 @@ h2 {
 
 .shadow_darkblue {
 	background: #1f485d;
-	opacity: 0.6;
+	/*opacity: 0.6;*/
 }
 
 .shadow_gray {
 	background: #3f494a;
-	opacity: 0.5;
+	/*opacity: 0.5;*/
+}
+
+.content_block {
+	padding: 0 30px 0 60px;
 }
 
 .text_white {
@@ -137,7 +140,7 @@ h2 {
 	height: 33px;
 	text-transform: capitalize;
 	border-radius: 10px;
-	margin: 50px 30px 0 0px;
+	margin: 70px 30px 0 0px;
 	text-align: center;
 	padding-top: 10px;
 }
@@ -188,6 +191,7 @@ h2 {
 	vertical-align: top;
 	padding: 15px 0 0 20px;
 	resize: none;
+	margin-bottom: 160px;
 }
 
 .none_size {
@@ -201,6 +205,10 @@ h2 {
 	width: 48px;
 	height: 48px;
 	border-radius: 7px;
+}
+
+.icon_contact {
+	margin-bottom: 30px;
 }
 
 .icon_facebook {
