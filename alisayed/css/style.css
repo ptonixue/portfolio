@@ -33,7 +33,7 @@ body {
 }
 
 .menu {
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 .block_0 {
@@ -78,9 +78,9 @@ body {
 }
 
 .p_block_1 {
-	width: 280px;
+	width: 330px;
 	font-size: 18px;
-	line-height: 1.5;
+	line-height: 1.8;
 	margin-bottom: 40px;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .fixed_size_text {
-	max-width: 500px;
+	max-width: 550px;
 }
 
 .row-fluid [class*="span"] {
