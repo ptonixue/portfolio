@@ -129,11 +129,22 @@ h3 {
 	padding: 50px 0 40px 0;
 }
 
-.tbl_icon td {
+.float_block {
+	float: left;
+	width: 23%;
+	margin-left: 15px;
+}
+
+.float_img {
+	width: 31%;
+}
+
+.clear {
+	clear: both;
+}
+
+.font_cent {
 	text-align: center;
-	padding: 5px;
-	font-size: 18px;
-	color: #4e4e4e;
 }
 
 .circle {
@@ -172,12 +183,8 @@ h3 {
 	margin: 30px 0 60px 0;
 }
 
-.tbl_works {
-	margin-bottom: 10px;
-}
-
 .img_works {
-	width: 338px;
+	width: 325px;
 	margin-top: 10px;
 }
 
@@ -211,17 +218,7 @@ h3 {
 	width: 1024px;
 	margin: 0px auto;
 	padding-bottom: 100px;
-}
-
-.tbl_foot {
-	table-layout: fixed;
-	width: 100%;
-}
-
-.tbl_foot td {
-	vertical-align: top;
 	font-size: 16px;
-	padding-right: 30px;
 	color: #A8A8A8;
 }
 
