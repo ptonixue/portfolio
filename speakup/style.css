@@ -1,0 +1,242 @@
+/* Подключение шрифтов */
+@font-face {
+    font-family: "MyriadProCondBold";
+    src: url("fonts/MyriadProCondBold/MyriadProCondBold.eot");
+    src: url("fonts/MyriadProCondBold/MyriadProCondBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProCondBold/MyriadProCondBold.woff") format("woff"),
+    url("fonts/MyriadProCondBold/MyriadProCondBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProItalic";
+    src: url("fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/* Общие стили для основных таблиц */
+[class^="base-"] {
+    min-width: 600px;
+	margin: 20px auto;
+}
+
+/* Шапка */
+h1 {
+	font: 36px 'MyriadProCondBold';
+	line-height: 0.9;
+	padding: 15px 0 0 0;
+}
+
+.main {
+	background: #efefef;
+}
+
+.base-1 td {
+	vertical-align: top;
+	color: #373737;
+}
+
+.text {
+	font: 16px 'MyriadProItalic';
+	width: 320px;
+	padding-left: 75px;
+	color: #000;
+}
+
+.books {
+	position: relative;
+	left: -40;
+}
+
+.butterfly {
+	position: relative;
+	top: 140px;
+	left: 55px;
+}
+
+/* Основная часть */
+.main_blue {
+	background: url(img/background.png) repeat #efefef;
+	background-size: cover;
+	width: 100%;
+	margin-top: -40px;
+}
+
+.base-2 {
+	margin-top: 0px;
+	padding-bottom: 120px;
+}
+
+.base-2 td {
+	color: #fff;
+	padding-left: 15px;
+}
+
+h2 {
+	font: 29.61px 'MyriadProCondBold';
+	padding-bottom: 10px;
+}
+
+/* Выпадающий список */
+.down_list {
+	width: 530px;
+	height: 55px;
+	padding-left: 10px;
+	color: #646464;
+	font: 18px Tahoma;
+}
+
+.arrow {
+	padding-top: 30px;
+}
+
+/* Кнопка 'Далее' */
+.next_arrow {
+	width: 275px;
+	height: 33px;
+	padding: 13px 0;
+	display: block;
+	background: linear-gradient(to bottom, #fc271b, #c21f11);
+	border-radius: 15px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font: 24px 'MyriadProBold';
+	text-decoration: none;
+}
+
+.next_arrow:hover {
+	background: linear-gradient(to bottom, #c21f11, #fc271b);
+}
+
+.next_arrow img {
+	position: relative;
+	top: 1px;
+}
+
+/* Список преимуществ */
+.list_special {
+	margin: 30px 0 10px 50px;
+}
+
+.list_special li {
+	display: inline-block;
+	font: 22px 'MyriadProCondBold';
+	margin-left: 70px;
+}
+
+.list_special li:nth-child(1) {
+	width: 220px;
+}
+
+.list_special li:nth-child(2) {
+	width: 170px;
+}
+
+.list_special li:nth-child(3) {
+	width: 200px;
+}
+
+/* Иконки списка преимуществ */
+[class^="img-icon-"] {
+    width: 55px;
+    height: 55px;
+    float: left;
+    background: url(img/sprite.png) no-repeat;
+}
+
+.img-icon-1 {
+	background-position: 0px 0px;
+}
+
+.img-icon-2 {
+	width: 60px;
+	background-position: -55px 0px;
+}
+
+.img-icon-3 {
+	background-position: -110px 0px;
+}
+
+.speak_icon {
+	padding-top: 60px;
+}
+
+.speak_icon img {
+	float: left;
+	margin: 0 25px 0 90px;
+}
+
+.speak_icon p {
+	font: 11px Tahoma;
+	margin: 0;
+	color: #c2c2c2;
+}
+
+/* Список статистики */
+.stat ul {
+	margin-left: 30px;
+}
+
+.stat ul li {
+	list-style-type: none;
+	font: 20px 'MyriadProCondBold';
+}
+
+[class^="icon-"] {
+    width: 25px;
+    height: 25px;
+    float: left;
+    background: url(img/sprite_2.png) no-repeat;
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.icon-1 {
+	background-position: 0px 0px;
+}
+
+.icon-2 {
+	background-position: -25px 0px;
+}
+
+.icon-3 {
+	background-position: -50px 0px;
+}
+
+.stat p {
+	font: 12px Tahoma;
+	padding-left: 45px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.number {
+	font-size: 30px;
+}
