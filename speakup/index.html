@@ -6,10 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<table width="100%" class="main">
+<table width="100%" class="main"> <!-- Подложка -->
 	<tr>
 	<td>
-	<table class="base-1">
+	<table class="base-1"> <!-- Шапка сайта -->
 		<tr>
 			<td>
 				<img src="img/butterfly.png" class="butterfly">
@@ -27,24 +27,29 @@
 	</td>
 	</tr>
 </table>
-
-<table width="100%" class="main_blue">
+<table width="100%" class="main_blue"> <!-- Подложка -->
 	<tr>
 	<td>
-	<table class="base-2">
+	<table class="base-2"> <!-- Контентная часть сайта -->
 		<tr>
 			<td rowspan="10" width="110"></td>		
 			<td rowspan="2"><img src="img/arrow.png" class="arrow"></td>
 			<td colspan="3"><h2>Забронируйте сертификат сейчас! (В Мосве их всего 180)</h2></td>
 		</tr>
-		<tr>
-			<td colspan="2">
-				<select name="" id="" class="down_list">
+		<tr> <!-- Выпадающий список -->
+			<td colspan="2"> 
+			<span class="custom_select"> <!-- Подложка для выпалающего списка -->
+				<select class="down_list"> <!-- Выпадающий список -->
 					<option>Метро</option>
   					<option>Пункт 2</option>
 				</select>
+				<!-- Стрелка выпадающего списка -->
+				<!-- <span class="select_button">
+					<span class="triangle-down"></span>
+				</span> -->
+			</span>
 			</td>
-			<td>
+			<td> <!-- Кнопка -->
 				<a href="" class="next_arrow">Далее <img src="img/next_arrow.png"></a></a>
 			</td>
 		</tr>
@@ -58,7 +63,8 @@
 			</td>
 		</tr>
 		<tr>
-			<td colspan="3"  class="speak_icon"><img src="img/speak_icon.png"> 
+			<td colspan="3"  class="speak_icon">
+				<img src="img/speak_icon.png"> 
 				<p>*Действуют ограничения. Подробности у консультантов.</p>
 				<p>Международународная сеть школ изучения английского языка Speak Up </p>
 				<p>АНО «Образовательный центр изучения иностранных языков «Спик Ап»</p>
@@ -68,12 +74,9 @@
 			</td>
 			<td class="stat">
 				<ul>
-					<li><span class="icon-1"></span>
-						<span class="number">4</span> страны</li>
-					<li><span class="icon-2"></span>
-						<span class="number">68</span> школ</li>
-					<li><span class="icon-3"></span>
-						<span class="number">48 000</span> выпускников</li>
+					<li><span class="icon-1"></span><span class="number">4</span> страны</li>
+					<li><span class="icon-2"></span><span class="number">68</span> школ</li>
+					<li><span class="icon-3"></span><span class="number">48 000</span> выпускников</li>
 				</ul>
 				<p>Работает на технологии <span class="underline">maketornado.com</span></p>
 			</td>
