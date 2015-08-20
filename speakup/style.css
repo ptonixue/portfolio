@@ -110,12 +110,12 @@ h2 {
 	height: 55px;
 	display: block;
 	overflow: hidden;
-	background: url(img/select_arrow.png) no-repeat 438px 0px  #fff;
+	background: #fff; /*url(img/select_arrow.png) no-repeat 438px 0px */
 	border-radius: 5px;
 }
 
 .custom_select select {
-	width: 520px;
+	width: 500px;
 	height: 56px;
 	background: transparent;
 	background: rgba(0, 0, 0, 0);
@@ -127,7 +127,7 @@ h2 {
 }
 
 /* Стилизация стрелки выпадающего списка */
-/*.select_button {
+.select_button {
 	width: 70px;
 	height: 55px;
 	display: block;
@@ -148,7 +148,7 @@ h2 {
     margin: 0 auto;
     position: relative;
     top: 25px;
-}*/
+}
 
 /* Кнопка */
 .next_arrow {
