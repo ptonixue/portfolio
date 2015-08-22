@@ -109,3 +109,27 @@ body {
 	/*background: url(img/head_background.png) no-repeat;
 	background-size: cover;*/
 }
+
+/* Контентная часть сайта */
+.main-3 {
+	width: 597px;
+	background: #fff;
+	margin-top: -20px;
+	padding: 10px 30px;
+	font-size: 15px;
+}
+
+.button_red {
+	width: 270px;
+	height: 45px;
+	display: block;
+	margin: 30px auto;
+	background: #A82D52;
+	border-radius: 25px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	line-height: 2.7;
+}
