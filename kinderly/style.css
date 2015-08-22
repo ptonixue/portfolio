@@ -123,8 +123,8 @@ body {
 	width: 270px;
 	height: 45px;
 	display: block;
-	margin: 30px auto;
-	background: #A82D52;
+	margin: 30px auto 50px auto;
+	background: url(img/arrow.png) no-repeat 235px 12px #A82D52;
 	border-radius: 25px;
 	color: #fff;
 	text-decoration: none;
@@ -132,4 +132,11 @@ body {
 	font-size: 16px;
 	text-align: center;
 	line-height: 2.7;
+}
+
+hr {
+	color: #F5F5F5;
+	background-color: #F5F5F5;
+	border: 0px none;
+	height: 1px;
 }
