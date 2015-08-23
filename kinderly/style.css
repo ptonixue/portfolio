@@ -117,6 +117,7 @@ body {
 	margin-top: -20px;
 	padding: 10px 30px;
 	font-size: 15px;
+	text-align: center;
 }
 
 .button_red {
@@ -139,4 +140,10 @@ hr {
 	background-color: #F5F5F5;
 	border: 0px none;
 	height: 1px;
+}
+
+/* Товары */
+.article td {
+	vertical-align: top;
+	color: #4e4e4e;
 }
