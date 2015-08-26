@@ -1,3 +1,26 @@
+ /* Код для подключения шрифта */
+/* font-family: "VelesRegular"; */
+@font-face {
+    font-family: "VelesRegular";
+    src: url("font/VelesRegular/VelesRegular.eot");
+    src: url("font/VelesRegular/VelesRegular.eot?#iefix")format("embedded-opentype"),
+    url("font/VelesRegular/VelesRegular.woff") format("woff"),
+    url("font/VelesRegular/VelesRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "VelesBold"; */
+@font-face {
+    font-family: "VelesBold";
+    src: url("font/VelesBold/VelesBold.eot");
+    src: url("font/VelesBold/VelesBold.eot?#iefix")format("embedded-opentype"),
+    url("font/VelesBold/VelesBold.woff") format("woff"),
+    url("font/VelesBold/VelesBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 html,
 body {
 	width: 100%;
@@ -8,13 +31,13 @@ body {
 
 /* Подложка и общие классы для таблиц */
 .podlogka {
-	background: url(img/background.png) 88% 0 repeat #f5f5f5;
+	background: url(img/background.png) 0 0 repeat #f5f5f5;
 }
 
 [class^="main-"] {
 	width: 631px;
 	margin: 0 auto;
-	font-family: Calibri;
+	font-family: Arial;
 }
 
 /* Навигация письма */
@@ -29,43 +52,34 @@ body {
 
 /* Шапка */
 .main-2 {
-	color: #7e7e7e;
 	background: #f5f5f5;
 	border-top: 1px solid #e4e4e4;
 	margin-top: 10px;
-	padding: 10px 0;
+	border-collapse: collapse;
+	table-layout: fixed;
 }
 
 /* Панель информации */
-.info_panel {
-	padding: 5px 0;
-	margin: 0;
+.info_panel td {
+	font-size: 11px;
+	color: #7e7e7e;
+	padding: 20px 0px 10px 10px;
 }
 
-.info_panel li {
-	display: inline-block;
-	font-size: 12px;
-	list-style: none;
-	margin-left: -5px;
-	padding: 0 0 10px 7px;
-	width: 150px;
-}
-
-.info_panel li:nth-child(1) {
+.info_panel td:nth-child(1) {
 	border-bottom: 4px solid #b82042;
 }
 
-.info_panel li:nth-child(2) {
+.info_panel td:nth-child(2) {
 	border-bottom: 4px solid #fab823;
 }
 
-.info_panel li:nth-child(3) {
-	width: 160px;
-	border-bottom: 4px solid #b9be22;
+.info_panel td:nth-child(3) {
 	padding-left: 0px;
+	border-bottom: 4px solid #b9be22;
 }
 
-.info_panel li:nth-child(4) {
+.info_panel td:nth-child(4) {
 	border-bottom: 4px solid #41a6d7;
 }
 
@@ -94,13 +108,21 @@ body {
 }
 
 /* Логотип и категории товаров */
+.main-3 {
+	color: #7e7e7e;
+	background: #f5f5f5;
+	/*border-top: 1px solid #e4e4e4;
+	margin-top: 10px;*/
+	padding: 10px 0;
+}
+
 .logo {
-	margin: 5px 0 10px 35px;
+	margin: 0px 0 5px 35px;
 }
 
 .logo a {
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 /* Картинка в шапке */
@@ -111,13 +133,18 @@ body {
 }
 
 /* Контентная часть сайта */
-.main-3 {
-	width: 597px;
+.main-4 {
+	width: 601px;
 	background: #fff;
 	margin-top: -20px;
-	padding: 10px 30px;
-	font-size: 15px;
+	padding: 10px 8px;
+	font-size: 14px;
 	text-align: center;
+	color: #3d3d3d;
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+	border-spacing: 20px 10px;
+	line-height: 1.3;
 }
 
 .button_red {
@@ -125,25 +152,170 @@ body {
 	height: 45px;
 	display: block;
 	margin: 30px auto 50px auto;
-	background: url(img/arrow.png) no-repeat 235px 12px #A82D52;
+	background: url(img/arrow.png) no-repeat 235px 12px #a82d52;
 	border-radius: 25px;
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 16px;
 	text-align: center;
-	line-height: 2.7;
+	line-height: 3;
 }
 
 hr {
-	color: #F5F5F5;
-	background-color: #F5F5F5;
+	color: #e2e2e2;
+	background-color: #e2e2e2;
 	border: 0px none;
 	height: 1px;
+}
+
+/* Цветные фигурки */
+[class^="figure_icon-"] {
+	display: block;
+	width: 65px;
+	height: 70px;
+	background: url(img/sprite_color.png) no-repeat;
+	margin: 5px 0;
+	position: relative;
+	left: 45px;
+}
+
+.figure_icon-1 {
+	float: left;
+	left: 20px;
+	background-position: 0px 0px;
+}
+
+.figure_icon-2 {
+	float: left;
+	left: 20px;
+	background-position: -65px 0px;
+}
+
+.figure_icon-3 {
+	background-position: -130px 0px;
+}
+
+.figure_icon-4 {
+	background-position: -190px 0px;
+}
+
+.figure_icon-5 {
+	background-position: -250px 0px;
+}
+
+.figure_icon-6 {
+	background-position: -310px 0px;
+}
+
+[class^="veles-"] {
+	font: 16px 'VelesBold';
+	position: relative;
+	top: 22px;
+}
+
+.veles-girl {
+	color: #bd2f4f;
+}
+
+.veles-boy {
+	color: #47a1db;
 }
 
 /* Товары */
 .article td {
 	vertical-align: top;
 	color: #4e4e4e;
+	font-size: 13px;
+	border: 1px solid #e4e4e4;
+}
+
+/* Кнопка просмотра */
+[class^="button_watch_"] {
+	font-size: 16px;
+	height: 50px;
+	position: relative;
+	top: -10px;
+}
+
+[class^="button_watch_"] a {
+	color: #fff;
+	display: block;
+	width: 260px;
+	height: 50px;
+	line-height: 3;
+}
+
+.button_watch_pink {
+	background: #a82d52;
+}
+
+.button_watch_blue {
+	background: #2b92d6;
+}
+
+/* Список преимуществ и услуг */
+.main-5 {
+	background: #fff;
+	width: 601px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	border: 1px solid #e7e7e7;
+	border-top: none;
+}
+
+.main-5 td {
+	text-align: center;
+}
+
+/* Верхняя цветная рамка */
+.advent_border_color td:nth-child(1) {
+	border-top: 4px solid #a82d52;
+}
+
+.advent_border_color td:nth-child(2) {
+	border-top: 4px solid #ffb606;
+}
+
+.advent_border_color td:nth-child(3) {
+	border-top: 4px solid #afb701;
+}
+
+.advent_border_color td:nth-child(4) {
+	border-top: 4px solid #009cd0;
+}
+
+/* Список */
+.advent_panel {
+	list-style: none;
+	font: 16px 'VelesBold';
+	line-height: 1.3;
+}
+
+.advent_panel td:nth-child(1) {
+	color: #a82d52;
+}
+
+.advent_panel td:nth-child(2) {
+	color: #ffb707;
+}
+
+.advent_panel td:nth-child(3) {
+	color: #afb701;
+}
+
+.advent_panel td:nth-child(4) {
+	color: #00aad6;
+}
+
+/* Подвал */
+.main-6 {
+	color: #4e4e4e;
+	padding: 15px;
+	font-size: 11px;
+	border-spacing: 0px 10px;
+	background: #f5f5f5;
+}
+
+.biz {
+	color: #bbbbbb;
 }
