@@ -20,20 +20,19 @@ body {
 
 /* Подложка и общие классы для таблиц */
 .podlogka {
-	background: #000;
 	color: #fff;
 	font-family: 'metapro-normal';
+	background: url(img/background.png) no-repeat center #000;
 }
 
 [class^="main-"] {
-	width: 1200px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
 /* Шапка */
 .main-1 {
 	margin-top: 30px;
-	background: url(img/background.png) no-repeat 0 0;
 }
 
 .logo { 
@@ -45,7 +44,6 @@ body {
 	font-size: 36px;
 	text-transform: uppercase;
 	line-height: 1.1;
-	padding-left: 20px;
 }
 
 .slogan p {
@@ -54,34 +52,59 @@ body {
 }
 
 .chose_text {
+	display: block;
 	font-size: 24px;
 	text-align: center;
-	padding-top: 60px;
+	padding: 45px 0 40px 0;
+}
+
+/* Полоски по бокам текста */
+.chose_text::after,
+.chose_text::before {
+	content: '';
+	display: block;
+	width: 320px;
+	height: 1px;
+	background: #414242;
+	position: relative;
+}
+
+.chose_text::after {
+	bottom: 17px;
+}
+
+.chose_text::before {
+	left: 685px;
+	top: 17px;
 }
 
 /* Выбор машины */
-.cars {
-	display: block; 
-	width: 1005px;
-	margin: 45px auto; 
-	padding-left: 140px;
-}
-
 .car {
 	display: block;
 	float: left;
-	width: 335px;
-	height: 435px;
+	width: 330px;
+	height: 430px;
 	background: url(img/test.png) no-repeat 0 0;
+	background-size: cover;
 	position: relative;
 	font-size: 24px;
 	text-align: center;
 }
 
+.cars span:nth-child(1) {
+	left: 62px;
+}
+
 .cars span:nth-child(2) {
-	left: -85px;
+	left: -19px;
 }
 
 .cars span:nth-child(3) {
-	left: -170px;
+	left: -100px;
+}
+
+/* Поля ввода */
+.info_pesone {
+	width: 380px;
+	height: 25px;
 }
