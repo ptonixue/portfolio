@@ -19,15 +19,18 @@ body {
 }
 
 /* Подложка и общие классы для таблиц */
-.podlogka {
+[class^="podlogka-"] {
 	color: #fff;
 	font-family: 'metapro-normal';
-	background: url(img/background.png) no-repeat center #000;
 }
 
 [class^="main-"] {
 	width: 1000px;
 	margin: 0 auto;
+}
+
+.podlogka-main {
+	background: url(img/background.png) no-repeat center top #000;
 }
 
 /* Шапка */
@@ -55,7 +58,7 @@ body {
 	display: block;
 	font-size: 24px;
 	text-align: center;
-	padding: 45px 0 40px 0;
+	padding: 25px 0 35px 0;
 }
 
 /* Полоски по бокам текста */
@@ -82,13 +85,15 @@ body {
 .car {
 	display: block;
 	float: left;
-	width: 330px;
-	height: 430px;
+	width: 270px; /* 330 */
+	height: 405px; /* 430 */
 	background: url(img/test.png) no-repeat 0 0;
 	background-size: cover;
 	position: relative;
-	font-size: 24px;
+	font-size: 30px;
 	text-align: center;
+	margin-bottom: 15px;
+	padding: 25px 0 0 60px;
 }
 
 .cars span:nth-child(1) {
@@ -104,7 +109,139 @@ body {
 }
 
 /* Поля ввода */
-.info_pesone {
-	width: 380px;
+.main-2 {
+	font-size: 14px;
+}
+
+.info_person {
+	width: 335px;
+	text-align: right;
+	padding-right: 25px;
+}
+
+.field_info_pesone {
+	width: 365px;
 	height: 25px;
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	padding: 0 0 2px 5px;
+}
+
+.mini_field_info {
+	width: 235px;
+}
+
+.select_field_info {
+	width: 240px;
+	height: 28px;
+}
+
+/* Стилизация стрелки выпадающего списка */
+.select_button {
+	width: 26px;
+	height: 28px;
+	display: block;
+	background: #fff;
+	position: relative;
+	right: 392px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	float: right;
+}
+
+.triangle-down {
+	display: block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #000;
+    margin: 0 auto;
+    position: relative;
+    top: 13px;
+}
+
+/* Чекбокс и кнопка */
+.accept_conditions {
+	padding-top: 10px;
+}
+
+.checkbox_info {
+	visibility: hidden;
+}
+
+.label_info {
+	position: relative;
+	bottom: 5px;
+	margin-left: -12px;
+}
+
+.label_info::before {
+	content: '';
+	display: block;
+	float: left;
+	width: 14px;
+	height: 14px;
+	background: #fff;
+}
+
+#accept:checked ~ .label_info::before {
+	content: 'v';
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.9;
+}
+
+.button_accept {
+	width: 245px;
+	height: 55px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	background: #662a83;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 15px;
+	line-height: 3.6;
+	margin: 10px 0;
+	cursor: default;
+	pointer-events: none;
+}
+
+#accept:checked ~ .button_accept {
+	background: linear-gradient(to bottom, #9c40c8, #712f92);
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+.link {
+	color: #c168ec;
+}
+
+
+/* Подвал */
+.podlogka-footer {
+	background: url(img/background_footer.png) no-repeat  center bottom #000;
+}
+
+.main-3 {
+	height: 200px;
+	font-size: 15px;
+}
+
+.main-3 p {
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	color: #3b3d3e;
+	background-color: #3b3d3e;
+	border: 0px none;
+	height: 1px;
+	position: relative;
+	top: 60px;
+	margin-bottom: 15px;
 }

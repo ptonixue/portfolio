@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<table width="100%" class="podlogka"> <!-- Подложка -->
+<table width="100%" class="podlogka-main"> <!-- Подложка -->
 	<tr><td>
-	<table class="main-1"> <!--  -->
+	<table class="main-1"> <!-- Шапка -->
 		<tr>
 			<td class="logo" width="270"><img src="img/logo.png"></td>
 			<td class="slogan">
@@ -16,7 +16,7 @@
 				<p>Запишитесь на тест-драйв и испытайте незабываемые ощущения за рулем кроссовера Infiniti</p>
 			</td>
 		</tr>
-		<tr>
+		<tr> <!-- Выбор автомобиля -->
 			<td colspan="2"><span class="chose_text">Выберите модель автомобиля</span></td>
 		</tr>
 		<tr>
@@ -28,46 +28,86 @@
 			</span>
 			</td>
 		</tr>
+	</table>
+	<table class="main-2"> <!-- Заявка -->
 		<tr>
 			<td colspan="2"><span class="chose_text">Заполните заявку на тест-драйв</span></td>
 		</tr>
 		<tr>
-			<td colspan="2">
-				<form action="" method="post">
-            		Фамилия <input type="text" name="family" class="info_pesone">
-            	</form>
-            </td>
-        </tr>
-        <tr>
-			<td colspan="2">
-            	<form action="" method="post">
-            		Имя <input type="text" name="name" class="info_pesone">
-            	</form>
-            </td>
-        </tr>
-        <tr>
-			<td colspan="2">
-            	<form action="" method="post">
-            		Отчество <input type="text" name="otchestvo" class="info_pesone">
-            	</form>
-            </td>
-        </tr>
-        <tr>
-			<td colspan="2">	
-            	<form action="" method="post">
-            		Телефон <input type="text" name="phone" class="info_pesone">
-            	</form>
-            </td>
-        </tr>
-        <tr>
-			<td colspan="2">
-            	<form action="" method="post">
-            		Email <input type="text" name="email" class="info_pesone">
-            	</form>
-            </td>
+			<td class="info_person">Фамилия</td>
+			<td><input type="text" name="family" class="field_info_pesone"></td>
+		</tr>
+		<tr>
+			<td class="info_person">Имя</td>
+			<td><input type="text" name="name" class="field_info_pesone"></td>
+		</tr>
+		<tr>
+			<td class="info_person">Отчество</td>
+			<td><input type="text" name="post_name" class="field_info_pesone"></td>
+		</tr>
+		<tr>
+			<td class="info_person">Телефон</td>
+			<td><input type="text" name="phone" class="field_info_pesone"></td>
+		</tr>
+		<tr>
+			<td class="info_person">Email</td>
+			<td><input type="text" name="email" class="field_info_pesone mini_field_info"></td>
+		</tr>
+		<tr>
+			<td class="info_person">Город</td>
+			<td>
+				<select class="field_info_pesone select_field_info"> <!-- Выпадающий список -->
+					<option> </option>
+					<option>Рязань</option>
+  					<option>Москва</option>
+  					<option>Коломна</option>
+				</select>
+				<span class="select_button"> <!-- Стрелка выпадающего списка -->
+					<span class="triangle-down"></span>
+				</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="info_person">Дилерский центр</td>
+			<td>
+				<select class="field_info_pesone select_field_info"> <!-- Выпадающий список -->
+					<option> </option>
+					<option>Пункт 1</option>
+  					<option>Пункт 2</option>
+  					<option>Пункт 3</option>
+				</select>
+				<span class="select_button"> <!-- Стрелка выпадающего списка -->
+					<span class="triangle-down"></span>
+				</span>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="accept_conditions"> <!-- Чекбокс с кнопкой -->
+				<input type="checkbox" class="checkbox_info" id="accept">
+				<label class="label_info" for="accept">я согласен на <a href="" class="link">условия</a></label>
+				<a href="" class="button_accept">Записаться на тест-драйв</a>
+			</td>
 		</tr>
 	</table>
 	</td></tr>
 </table>
+<table width="100%" class="podlogka-footer"> <!-- Подложка для подвала -->
+	<tr><td>
+	<table class="main-3"> <!-- Подвал -->
+	<tr>
+		<td><hr></td>
+	</tr>
+	<tr>
+		<td>www.infiniti.ru
+		<p>Все права защищены</p></td>
+	</tr>
+	</table>
+	</td></tr>
+	</table>
+	</tr></td>
+</table>
 </body>
 </html>
+
+<!-- Добвить формы -->
