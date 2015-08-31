@@ -28,68 +28,71 @@
 			</span>
 			</td>
 		</tr>
+		
 	</table>
-	<table class="main-2"> <!-- Заявка -->
-		<tr>
-			<td colspan="2"><span class="chose_text">Заполните заявку на тест-драйв</span></td>
-		</tr>
-		<tr>
-			<td class="info_person">Фамилия</td>
-			<td><input type="text" name="family" class="field_info_pesone"></td>
-		</tr>
-		<tr>
-			<td class="info_person">Имя</td>
-			<td><input type="text" name="name" class="field_info_pesone"></td>
-		</tr>
-		<tr>
-			<td class="info_person">Отчество</td>
-			<td><input type="text" name="post_name" class="field_info_pesone"></td>
-		</tr>
-		<tr>
-			<td class="info_person">Телефон</td>
-			<td><input type="text" name="phone" class="field_info_pesone"></td>
-		</tr>
-		<tr>
-			<td class="info_person">Email</td>
-			<td><input type="text" name="email" class="field_info_pesone mini_field_info"></td>
-		</tr>
-		<tr>
-			<td class="info_person">Город</td>
-			<td>
-				<select class="field_info_pesone select_field_info"> <!-- Выпадающий список -->
-					<option> </option>
-					<option>Рязань</option>
-  					<option>Москва</option>
-  					<option>Коломна</option>
-				</select>
-				<span class="select_button"> <!-- Стрелка выпадающего списка -->
-					<span class="triangle-down"></span>
-				</span>
-			</td>
-		</tr>
-		<tr>
-			<td class="info_person">Дилерский центр</td>
-			<td>
-				<select class="field_info_pesone select_field_info"> <!-- Выпадающий список -->
-					<option> </option>
-					<option>Пункт 1</option>
-  					<option>Пункт 2</option>
-  					<option>Пункт 3</option>
-				</select>
-				<span class="select_button"> <!-- Стрелка выпадающего списка -->
-					<span class="triangle-down"></span>
-				</span>
-			</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td class="accept_conditions"> <!-- Чекбокс с кнопкой -->
-				<input type="checkbox" class="checkbox_info" id="accept">
-				<label class="label_info" for="accept">я согласен на <a href="" class="link">условия</a></label>
-				<a href="" class="button_accept">Записаться на тест-драйв</a>
-			</td>
-		</tr>
-	</table>
+	<form action="you_link.php" method="post" id="myform">
+		<table class="main-2"> <!-- Заявка -->
+			<tr>
+				<td colspan="2"><span class="chose_text">Заполните заявку на тест-драйв</span></td>
+			</tr>
+			<tr>
+				<td class="info_person">Фамилия</td>
+				<td><input type="text" name="family" form="myform" class="field_info_pesone"></td>
+			</tr>
+			<tr>
+				<td class="info_person">Имя</td>
+				<td><input type="text" name="name" form="myform" class="field_info_pesone"></td>
+			</tr>
+			<tr>
+				<td class="info_person">Отчество</td>
+				<td><input type="text" name="patronymic" form="myform" class="field_info_pesone"></td>
+			</tr>
+			<tr>
+				<td class="info_person">Телефон</td>
+				<td><input type="text" name="phone" form="myform" class="field_info_pesone"></td>
+			</tr>
+			<tr>
+				<td class="info_person">Email</td>
+				<td><input type="text" name="email" form="myform" class="field_info_pesone mini_field_info"></td>
+			</tr>
+			<tr>
+				<td class="info_person">Город</td>
+				<td>
+					<select name="city" form="myform" class="field_info_pesone select_field_info"> <!-- Выпадающий список -->
+						<option> </option>
+						<option>Рязань</option>
+	  					<option>Москва</option>
+	  					<option>Коломна</option>
+					</select>
+					<span class="select_button"> <!-- Стрелка выпадающего списка -->
+						<span class="triangle-down"></span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td class="info_person">Дилерский центр</td>
+				<td>
+					<select name="dealer" form="myform" class="field_info_pesone select_field_info"> <!-- Выпадающий список -->
+						<option> </option>
+						<option>Пункт 1</option>
+	  					<option>Пункт 2</option>
+	  					<option>Пункт 3</option>
+					</select>
+					<span class="select_button"> <!-- Стрелка выпадающего списка -->
+						<span class="triangle-down"></span>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td class="accept_conditions"> <!-- Чекбокс с кнопкой -->
+					<input type="checkbox" name="accept" form="myform" class="checkbox_info" id="accept">
+					<label class="label_info" for="accept">я согласен на <a href="" class="link">условия</a></label>
+					<input type="submit" name="record" form="myform" value="Записаться на тест-драйв" class="button_accept">
+				</td>
+			</tr>
+		</table>
+	</form>
 	</td></tr>
 </table>
 <table width="100%" class="podlogka-footer"> <!-- Подложка для подвала -->

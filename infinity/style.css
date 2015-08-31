@@ -85,10 +85,8 @@ body {
 .car {
 	display: block;
 	float: left;
-	width: 270px; /* 330 */
-	height: 405px; /* 430 */
-	background: url(img/test.png) no-repeat 0 0;
-	background-size: cover;
+	width: 270px; 
+	height: 405px; 
 	position: relative;
 	font-size: 30px;
 	text-align: center;
@@ -98,14 +96,45 @@ body {
 
 .cars span:nth-child(1) {
 	left: 62px;
+	background: url(img/podlogka_for_car.png) no-repeat 0 0,
+				url(img/part_1.png) no-repeat 72% 67%;
+	background-size: cover, auto;
 }
 
 .cars span:nth-child(2) {
 	left: -19px;
+	background: url(img/podlogka_for_car.png) no-repeat 0 0,
+				url(img/part_2.png) no-repeat 52% 47%;
+	background-size: cover, 290px;
 }
 
 .cars span:nth-child(3) {
 	left: -100px;
+	background: url(img/podlogka_for_car.png) no-repeat 0 0,
+				url(img/part_3.png) no-repeat 22% 57%;
+	background-size: cover, auto;
+}
+
+.cars span:hover {
+	color: #db4bff;
+}
+
+.cars span:nth-child(1):hover {
+	background: url(img/part_1.png) no-repeat 72% 67%,
+				url(img/podlogka_for_car_hover.png) no-repeat 0 0;		
+	background-size: auto, cover;	
+}
+
+.cars span:nth-child(2):hover {
+	background: url(img/part_2.png) no-repeat 52% 47%,
+				url(img/podlogka_for_car_hover.png) no-repeat 0 0;	
+	background-size: 290px, cover;		
+}
+
+.cars span:nth-child(3):hover {
+	background: url(img/part_3.png) no-repeat 22% 57%,
+				url(img/podlogka_for_car_hover.png) no-repeat 0 0;	
+	background-size: auto, cover;		
 }
 
 /* Поля ввода */
@@ -199,12 +228,10 @@ body {
 	height: 55px;
 	display: block;
 	color: #fff;
-	text-decoration: none;
 	background: #662a83;
-	text-align: center;
+	border: none;
 	border-radius: 3px;
 	font-size: 15px;
-	line-height: 3.6;
 	margin: 10px 0;
 	cursor: default;
 	pointer-events: none;
