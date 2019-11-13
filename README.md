@@ -17,9 +17,9 @@
 1. LP для Райффайзен Банка
 ![raiffaizen_bank](https://github.com/ptonixue/portfolio/blob/master/preview_LP_1.png "raiffaizen_bank")
 2. LP для Райффайзен Банка
-![simple_wine](https://github.com/ptonixue/portfolio/blob/master/preview_LP_1.png "simple_wine")
+![simple_wine](https://github.com/ptonixue/portfolio/blob/master/preview_LP_2.png "simple_wine")
 3. LP для Ингосстараха
-![raiffaizen_online](https://github.com/ptonixue/portfolio/blob/master/preview_LP_1.jpg "raiffaizen_online")
+![raiffaizen_online](https://github.com/ptonixue/portfolio/blob/master/preview_LP_3.jpg "raiffaizen_online")
 
 
 Примеры верстки макетов (начало крьеры)
