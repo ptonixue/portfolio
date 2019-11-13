@@ -4,6 +4,8 @@
 Примеры последних работ
 ------
 Адаптивные письма, с поддержкой для Outlook:
+------
+
 1. Письмо для Райффайзен Банка
 ![raiffaizen_bank](https://github.com/ptonixue/portfolio/blob/master/preview_mail_1.jpg "raiffaizen_bank")
 2. Письмо для Simple Wine
@@ -24,6 +26,7 @@
 
 Примеры верстки макетов (начало крьеры)
 ------
+
 1. Marble (лендинг) из рассылки №8  
 ![Marble](https://github.com/ptonixue/portfolio/blob/master/marble/index_preview.png "Marble")
 2. Altair (лендинг) из рассылки №8  
