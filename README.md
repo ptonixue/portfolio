@@ -11,6 +11,6 @@
 Примеры последних работ
 ------
 1. Адаптивные письма, с поддержкой для Outlook  
-![raiffaizen_bank](https://github.com/ptonixue/portfolio/preview_LP_1.jpg "raiffaizen_bank")
+![raiffaizen_bank](https://github.com/ptonixue/portfolio/blob/master/preview_LP_1.jpg "raiffaizen_bank")
 
 
