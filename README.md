@@ -1,5 +1,5 @@
 # portfolio
-Примеры верстки макетов
+Примеры верстки макетов (начало крьеры)
 ------
 1. Marble (лендинг) из рассылки №8  
 ![Marble](https://github.com/ptonixue/portfolio/blob/master/marble/index_preview.png "Marble")
@@ -7,3 +7,10 @@
 ![Altair](https://github.com/ptonixue/portfolio/blob/master/altair/index_preview.png "Altair")
 3. Alisayed (Информационный сайт) из рассылки №13  
 ![Alisayed](https://github.com/ptonixue/portfolio/blob/master/alisayed/index_preview.png "Alisayed")
+
+Примеры последних работ
+------
+1. Адаптивные письма, с поддержкой для Outlook  
+![Райффайзен БАНК](https://github.com/ptonixue/portfolio/preview_LP_1.jpg "Райффайзен БАНК")
+
+
