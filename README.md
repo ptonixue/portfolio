@@ -3,6 +3,7 @@
 
 Примеры последних работ
 ------
+
 Адаптивные письма, с поддержкой для Outlook:
 ------
 
@@ -16,6 +17,8 @@
 ![haier](https://github.com/ptonixue/portfolio/blob/master/preview_mail_4.png "haier")
 
 Адаптивные Lending Page:
+------
+
 1. LP для Райффайзен Банка
 ![raiffaizen_bank](https://github.com/ptonixue/portfolio/blob/master/preview_LP_1.jpg "raiffaizen_bank")
 2. LP для Райффайзен Банка
